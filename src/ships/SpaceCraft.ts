@@ -2,7 +2,7 @@ export abstract class SpaceCraft {
     private id: number;
     private name: string;
     private fuel: number;
-    private health: number;
+    protected health: number;
 
 
 	public constructor(id: number, name: string, fuel: number, health: number) {

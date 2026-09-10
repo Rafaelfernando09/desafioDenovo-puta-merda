@@ -6,9 +6,7 @@
     "outDir": "./src",
 
     "strict": true,
-    "esModuleInterop": true,
-    "moduleResolution": "node",
-    "types": ["node"]
+    "esModuleInterop": true
   },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules", "dist"]
